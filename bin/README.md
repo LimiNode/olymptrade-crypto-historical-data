@@ -7,7 +7,7 @@
 Данная программа собрана при помощи компилятора *MinGW-w64* версии *7.3.0* [https://sourceforge.net/projects/mingw-w64/](https://sourceforge.net/projects/mingw-w64/)
 Если на вашем компьютере нет необходимых *dll* файлов, их можно взять из архива с компилятором или извлечь из архива *dll.7z*.
 
-Исходные файлы программы можно найти [тут](https://github.com/NewYaroslav/xquotes_history).
+Исходные файлы программы можно найти [тут](https://github.com/LimiNode/xquotes_history).
 
 ### Быстрое использование
 
@@ -87,8 +87,8 @@ xqhtools convert_storage path_storage ..\storage\AUDCAD.qhs4 path_csv ..\csv\AUD
 
 * Программа скачивает данные непосредственно с брокера через браузерное расширение
 * Программа может скачивать только цену *(bid+ask)/2*.
-* Программа скачивает данные в специальный формат [qhs4](https://github.com/NewYaroslav/xquotes_history). Данный формат использует библиотека [xquotes_history](https://github.com/NewYaroslav/xquotes_history). 
-Формат содержит все цены бара (open, high, low, close). Преобразовать данный формат в файл *csv* можно при помощи специальной утилиты [xqhtools](https://github.com/NewYaroslav/xquotes_history/tree/master/bin).
+* Программа скачивает данные в специальный формат [qhs4](https://github.com/LimiNode/xquotes_history). Данный формат использует библиотека [xquotes_history](https://github.com/LimiNode/xquotes_history). 
+Формат содержит все цены бара (open, high, low, close). Преобразовать данный формат в файл *csv* можно при помощи специальной утилиты [xqhtools](https://github.com/LimiNode/xquotes_history/tree/master/bin).
 * Настройки программы можно задать как через аргументы, так и через json файл.
 * Программа может скачать котировки всех валютных пар, которые есть у брокера [olymptrade](https://olymptrade.com/).
 
